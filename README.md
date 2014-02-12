@@ -47,3 +47,5 @@ make[1]: *** [check-TESTS] Error 2
 make[1]: Leaving directory `/home/jan/test/automake-tap'
 make: *** [check-am] Error 2
 ```
+
+Also see [Automake documentation on using the TAP testing protocol]([http://www.gnu.org/software/automake/manual/html_node/Using-the-TAP-test-protocol.html).
