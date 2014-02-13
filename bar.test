@@ -1,6 +1,7 @@
 #!/bin/sh
-echo 1..3
-echo 'not ok 1 - Bummer, this test has failed.'
-echo 'ok 2 - This passed though.'
-echo 'Bail out! Ennui kicking in, sorry...'
-echo 'ok 3 - This will not be seen.'
+echo 'not ok - Bummer, this test has failed.'
+echo '# Expected: a pass'
+echo '#      Got: a fail'
+echo 'ok - This passed though.'
+echo 1..2
+
