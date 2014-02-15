@@ -2,15 +2,13 @@
 !#
 (use-modules (ggspec lib))
 
-(exit
-  (suite-failed
-    (suite "baz"
-      (tests
-        (test "A test"
-          e (assert-equal 1 1)))
-      (options
-        (option 'output-cb output-tap)
-        (option 'tally #t)))))
+(suite "baz"
+  (tests
+    (test "A test"
+      e (assert-equal 1 1)))
+  (options
+    (option 'output-cb output-tap)
+    (option 'tally #t)))
 
 #!
 echo '# Suite: baz'
