@@ -1,6 +1,0 @@
-#!/bin/sh
-echo '# Suite: baz'
-echo ok - A test
-echo 1..1
-# Exit with error, even if all the tests have been successful.
-exit 7
