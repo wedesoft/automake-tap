@@ -2,19 +2,21 @@
 !#
 (use-modules (ggspec lib))
 
-(suite "bar"
-  (tests
-    (test "Bummer, this test has failed."
-      e (assert-equal 0 1))
-    (test "This passed though."
-      e (assert-equal 1 1))
-    (test "This will not be seen."
-      e (assert-true #f)
+(exit
+  (suite-failed
+    (suite "bar"
+      (tests
+        (test "Bummer, this test has failed."
+          e (assert-equal 0 1))
+        (test "This passed though."
+          e (assert-equal 1 1))
+        (test "This will not be seen."
+          e (assert-true #f)
+          (options
+            (option 'skip #t))))
       (options
-        (option 'skip #t))))
-  (options
-    (option 'output-cb output-tap)
-    (option 'tally #t)))
+        (option 'output-cb output-tap)
+        (option 'tally #t)))))
 
 #!
 echo '# Suite: bar'
