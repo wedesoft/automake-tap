@@ -1,5 +1,5 @@
 #!/bin/sh
 echo ok - A test
-# Silent failure of test program (detect by missing test plan)
+# Test suite failing silently (that's why there are test plans)
 exit 0
 echo 1..1

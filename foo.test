@@ -1,8 +1,8 @@
 #!/bin/sh
+echo 1..5 # Number of tests to be executed.
 echo 'ok - Swallows fly'
 echo 'not ok - Caterpillars fly # TODO metamorphosis in progress'
-echo 'ok - Butterlfies fly # TODO metamorphosis in progress'
+echo 'ok - Butterflies fly # TODO this test should still fail'
 echo 'ok - Pigs fly # SKIP not enough acid'
 echo 'ok - Flies fly too :-)'
-echo 1..5 # Number of tests to be executed.
 

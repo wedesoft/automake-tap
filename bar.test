@@ -3,5 +3,5 @@ echo 'not ok - Bummer, this test has failed.'
 echo 'ok - This passed though.'
 echo 'Bail out! Ennui kicking in, sorry...'
 echo 'ok - This will not be seen.'
-echo 1..3
+echo 1..3 # Test plan appearing at the end
 
