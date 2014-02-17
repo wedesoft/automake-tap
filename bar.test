@@ -1,8 +1,5 @@
 #!/bin/sh
-echo '# Suite: bar'
 echo 'not ok - Bummer, this test has failed.'
-echo '# Expected: a pass'
-echo '#      Got: a fail'
 echo 'ok - This passed though.'
 echo 'Bail out! Ennui kicking in, sorry...'
 echo 'ok - This will not be seen.'

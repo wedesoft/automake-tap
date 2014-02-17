@@ -1,10 +1,8 @@
 #!/bin/sh
-echo '# Suite: foo'
 echo 'ok - Swallows fly'
 echo 'not ok - Caterpillars fly # TODO metamorphosis in progress'
-echo '# Expected: caterpillars fly'
-echo '#      Got: caterpillars dont fly'
+echo 'ok - Butterlfies fly # TODO metamorphosis in progress'
 echo 'ok - Pigs fly # SKIP not enough acid'
 echo 'ok - Flies fly too :-)'
-echo 1..4 # Number of tests to be executed.
+echo 1..5 # Number of tests to be executed.
 

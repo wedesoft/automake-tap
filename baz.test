@@ -1,6 +1,5 @@
 #!/bin/sh
-echo '# Suite: baz'
 echo ok - A test
+# Silent failure of test program (detect by missing test plan)
+exit 0
 echo 1..1
-# Exit with error, even if all the tests have been successful.
-exit 7
